@@ -27,6 +27,8 @@
         android:id="@+id/TxtUsuario"
         android:layout_width="269dp"
         android:layout_height="54dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
         android:layout_marginBottom="365dp"
         android:ems="10"
         android:hint="Usuario"
@@ -41,20 +43,17 @@
 
     <EditText
         android:id="@+id/TxtPassword"
-        android:layout_width="191dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="102dp"
+        android:layout_width="283dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="100dp"
-        android:layout_marginBottom="305dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TxtUsuario"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/TxtUsuario" />
 
     <Button
         android:id="@+id/buttonIngresar"
@@ -71,7 +70,7 @@
         app:layout_constraintTop_toBottomOf="@+id/TxtPassword" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonCancelar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="84dp"
